@@ -12,6 +12,7 @@
 		E169A80C1EEC9F9800E6CA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E169A80A1EEC9F9800E6CA1E /* Main.storyboard */; };
 		E169A80E1EEC9F9800E6CA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E169A80D1EEC9F9800E6CA1E /* Assets.xcassets */; };
 		E169A8111EEC9F9800E6CA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E169A80F1EEC9F9800E6CA1E /* LaunchScreen.storyboard */; };
+		E169A8191EECBA9A00E6CA1E /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = E169A8181EECBA9A00E6CA1E /* Fastfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E169A80D1EEC9F9800E6CA1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E169A8101EEC9F9800E6CA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E169A8121EEC9F9800E6CA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E169A8181EECBA9A00E6CA1E /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		E169A7FA1EEC9F9800E6CA1E = {
 			isa = PBXGroup;
 			children = (
+				E169A8181EECBA9A00E6CA1E /* Fastfile */,
 				E169A8051EEC9F9800E6CA1E /* fastlane iOS test */,
 				E169A8041EEC9F9800E6CA1E /* Products */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				E169A8111EEC9F9800E6CA1E /* LaunchScreen.storyboard in Resources */,
 				E169A80E1EEC9F9800E6CA1E /* Assets.xcassets in Resources */,
+				E169A8191EECBA9A00E6CA1E /* Fastfile in Resources */,
 				E169A80C1EEC9F9800E6CA1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BHTSW5LM22;
 				INFOPLIST_FILE = "fastlane iOS test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -267,6 +272,7 @@
 				PROVISIONING_PROFILE = "a8cdbc5c-2e3d-408a-9746-1c5bb54ebb14";
 				PROVISIONING_PROFILE_SPECIFIER = "Develop Fastlane iOS Test";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -274,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BHTSW5LM22;
 				INFOPLIST_FILE = "fastlane iOS test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -282,6 +289,7 @@
 				PROVISIONING_PROFILE = "a8cdbc5c-2e3d-408a-9746-1c5bb54ebb14";
 				PROVISIONING_PROFILE_SPECIFIER = "Develop Fastlane iOS Test";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -304,6 +312,7 @@
 				E169A8171EEC9F9800E6CA1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
